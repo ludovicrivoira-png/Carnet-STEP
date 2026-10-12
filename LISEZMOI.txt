@@ -1,0 +1,22 @@
+CARNET STEP 1re — paquet à héberger
+====================================
+
+Contenu
+- index.html : l'appli élève (fonctionne hors connexion une fois installée)
+- prof.html : l'espace prof (QR codes, import des carnets)
+- manifest.webmanifest, sw.js, icônes : ce qui permet l'installation et le hors-connexion
+
+Mise en ligne (GitHub Pages, gratuit)
+1. Créer un compte sur github.com, puis un dépôt public (ex. carnet-step).
+2. « Add file › Upload files » : déposer tous les fichiers de ce dossier.
+3. Settings › Pages › Branch : main / root › Save.
+4. L'adresse s'affiche après une minute : https://<compte>.github.io/carnet-step/
+
+Côté élève
+- Ouvrir l'adresse une fois avec du réseau.
+- iPhone : Safari › Partager › « Sur l'écran d'accueil ». Android : menu › « Installer l'application ».
+- Ensuite, toujours ouvrir le carnet depuis l'icône (sur iPhone, l'icône et Safari ne partagent pas les données).
+
+Données
+- Tout reste dans le téléphone de l'élève. Le serveur ne fait que distribuer les fichiers.
+- Rendu : l'élève exporte un fichier .json (Moi › Exporter mon carnet) et le dépose sur EcoleDirecte.
